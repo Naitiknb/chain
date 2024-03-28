@@ -1,0 +1,416 @@
+<!-- card -->
+<!-- <div class="container py-3">
+    <div class="row">
+        
+            <h2>Services We Offer</h2>
+            <p>Discover the digital possibilities for your brand with our comprehensive suite of services.</p>
+       
+            <div class="card" style="background-color: #2BFF8A; position: relative;">
+                <div class="card-body">
+                    <div class="top-part">
+                        <h6><img src="./assets/logo-2.png"> Join Development</h6>
+                         <div class="line"></div> 
+                    </div>
+                    
+
+                    <div class="text-center py-3">
+                        <h2 class="py-3">Blockchain Development</h2>
+                        <img class="h-100 w-100"  src="./assets/design-prototyping-tool-web-mobile-apps 1.png">
+                        <div class="line-2"></div> 
+                    </div>
+
+                    <div class="butn text-end">
+                        <button id="btn-2" class="btn" style="background-color: white; border-radius: 50px; font-weight: 600;">Explore <span id="card-btn" style="padding: 2px;  border-radius: 50px; color: white;"><i style="width: 20px;" class="fa-solid fa-arrow-right"></i> </span></button>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Include your custom CSS file after Bootstrap -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- Include jQuery and Bootstrap JS at the end of the body -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<!-- nav  -->
+<header>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div id="banner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-1">
+            <a class="navbar-brand" href="#">
+                <img style="height: 30px; display: flex; justify-content: center; margin-right: 100px;" src="./assets/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        </div>
+        <div class="col-md-8">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Business Models</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+</div>
+    <!-- nav -->
+<!-- text -->
+
+<div class="container-fluid bg-dark text-white">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 id="banner-text">WELCOME</h1>
+            <h1 id="banner-text">TO <span class="text-gradient">CHAINTECH</span></h1>
+            <div class="two-line-paragraph">
+            <p  >From square one to engineering excellence! PixelPlex assists in full-cycle software <span><p class="mt-3">development, jumps in to take it over, or brings dedicated top-demanded skills.</p></span></p>
+</div>
+            <div class="py-5 h-100">
+            <button class="btn btn-light" style="background-color: white; border-radius: 50px; font-weight: 600;">Get Started<span  style="background-color: #000000; margin-left: 20px; padding: 2px;  border-radius: 50px; color: white;"><i style="width: 20px;" class="fa-solid fa-arrow-right"></i> </span></button></div>
+        </div>
+    </div>
+</div>
+
+<!-- text -->
+</header>
+
+
+
+
+
+<div class="container py-3">
+    <div class="row" id="serviceCards">
+      
+        <!-- Cards will be dynamically added here -->
+   
+    </div>
+</div>
+
+<!-- card -->
+
+
+<!-- footer -->
+<footer>
+<div class="footer py-2">
+    <div class="d-flex justify-content-center h-100 w-100 py-4"> 
+        <img src="./assets//logo.png">
+    </div>
+    <hr class="centered-hr" width="75%">
+
+
+<div class="text-center ">
+    <p>© 2024 All Rights Reserved -  Chaintech Network</p>
+</div>
+</div>
+</footer>
+
+
+<!-- footer -->
+
+</body>
+<style>
+
+#banner-bg{
+    background-color: #000000!important;
+}
+
+p{
+    margin-bottom: -1rem;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width:768px) {
+    #banner-text{
+        font-size: 60px;
+    }
+
+    #btn-2{
+        margin-top: 10px;
+    }
+   #m-card{
+    display: flex;
+    justify-content: center;
+   }
+}
+
+    .centered-hr {
+    margin: 0 auto; /* This centers the hr horizontally */
+}
+
+
+#btn-2:hover{
+background-color: #000000!important;
+color: white!important;
+}
+
+#card-btn {
+    background: linear-gradient(270deg, #00FFA7 0%, #FFFF00 100%);
+    border-radius: 50px;
+    padding: 2px;
+    color: white;
+    margin-left: 10px;
+}
+
+    
+    
+    
+    .line {
+            position: absolute;
+            top: 50px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background-color: black;
+        }
+    
+        .line-2 {
+            position: absolute;
+            bottom: 60px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background-color: black;
+        }
+    
+        .card {
+    border: 3px solid black;
+    width: 17rem; /* Set a fixed width for the cards */
+    height: 25rem; /* Set a fixed height for the cards */
+    border-radius: 20px;
+    margin-bottom: 20px; /* Add some spacing between cards */
+}
+
+    
+        h1 {
+            font-size: 120px;
+            font-weight: 900;
+        }
+    
+        .bg {
+            background-color: #060606;
+        }
+    
+        /* Added CSS for alignment */
+        .flex-container {
+            display: flex;
+            justify-content: center; /* Centers child elements horizontally */
+        }
+    
+        .flex-container p {
+            margin: 0 10px; /* Adds some spacing between paragraphs */
+        }
+    
+        /* Added CSS for gradient text */
+        .text-gradient {
+            background: linear-gradient(270deg, #00FFA7 0%, #FFFF00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    
+        .text{
+            font-weight: 600;
+        }
+    
+    
+    .nav-link{
+        color: white;
+        font-weight: 600;
+        
+    }
+    
+    
+    
+    
+        .nav-link:hover{
+     color: #00FFA7;
+    ;
+            cursor: pointer;
+        }
+        
+    
+        .footer{
+            background-color: #000000;
+            color: #98A6AC;
+        }
+
+
+        .img{
+            height: 150px;
+            width: 150px;
+        }
+    </style>
+    <script>
+        // Sample data for demonstration
+        const servicesData = [
+            {
+                title: 'Blockchain Development',
+                imageUrl: './assets/design-prototyping-tool-web-mobile-apps 1.png',
+                buttonText: 'Explore',
+                buttonColor: 'white',
+                buttonTextColor: 'black',
+                bg:'#2BFF8A',
+                id:'m-card'
+              
+            },
+
+            {
+                title: 'Blockchain Development',
+                imageUrl: './assets/img-2.png',
+                buttonText: 'Explore',
+                buttonColor: 'white',
+                buttonTextColor: 'black',
+                bg:'#00F0FF',
+              
+            },
+
+            {
+                title: 'Security AAS',
+                imageUrl: './assets/img-3.png',
+                buttonText: 'Explore',
+                buttonColor: 'white',
+                buttonTextColor: 'black',
+                bg:'#FC5959',
+                css:"55px"
+            },
+
+            {
+                title: 'Motion Graphic',
+                imageUrl: './assets/img-4.png',
+                buttonText: 'Explore',
+                buttonColor: 'white',
+                buttonTextColor: 'black',
+                bg:'#2D45E6',
+                css:"50px"
+            },
+
+
+            {
+                title: 'Blockchain Development',
+                imageUrl: './assets/design-prototyping-tool-web-mobile-apps 1.png',
+                buttonText: 'Explore',
+                buttonColor: 'white',
+                buttonTextColor: 'black',
+                bg:'#2BFF8A',
+              
+            },
+
+            {
+                title: 'Blockchain Development',
+                imageUrl: './assets/img-2.png',
+                buttonText: 'Explore',
+                buttonColor: 'white',
+                buttonTextColor: 'black',
+                bg:'#00F0FF',
+              
+            },
+
+            {
+                title: 'Security AAS',
+                imageUrl: './assets/img-3.png',
+                buttonText: 'Explore',
+                buttonColor: 'white',
+                buttonTextColor: 'black',
+                bg:'#FC5959',
+                css:"55px"
+            },
+
+            {
+                title: 'Motion Graphic',
+                imageUrl: './assets/img-4.png',
+                buttonText: 'Explore',
+                buttonColor: 'white',
+                buttonTextColor: 'black',
+                bg:'#2D45E6',
+                css:"50px"
+            },
+            
+            // Add more service data objects here
+        ];
+    
+        // Function to create a card element
+        function createServiceCard(service) {
+            const card = document.createElement('div');
+            card.className = 'col-md-3';
+            card.id="m-card"
+    
+            card.innerHTML = `
+            
+                <div  class="card" style="background-color: ${service.bg}; ">
+                    <div class="card-body">
+                        <div class="top-part">
+                            <h6><img src="./assets/logo-2.png"> Join Development</h6>
+                            <div class="line"></div> 
+                        </div>
+                        
+                        <div class="text-center py-3">
+                            <h2 style="padding:${service.css}" class="py-3 ">${service.title}</h2>
+                            <img class="img" src="${service.imageUrl}">
+                            <div class="line-2"></div> 
+                        </div>
+                        <div class="butn text-end">
+                            <button id="btn-2" class="btn" style="background-color: ${service.buttonColor}; border-radius: 50px; font-weight: 600; color: ${service.buttonTextColor};">Explore <span id="card-btn" style="padding: 2px; border-radius: 50px;"><i style="width: 20px;" class="fa-solid fa-arrow-right"></i> </span></button>
+                        </div>
+                    </div>
+                </div>
+               
+            `;
+    
+            return card;
+        }
+    
+        // Function to initialize service cards
+        function initializeServiceCards() {
+            const serviceCardsContainer = document.getElementById('serviceCards');
+            servicesData.forEach(service => {
+                const card = createServiceCard(service);
+                serviceCardsContainer.appendChild(card);
+            });
+        }
+    
+        // Initialize service cards
+        initializeServiceCards();
+    </script>
+
+    
+</html>
